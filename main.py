@@ -6,8 +6,8 @@ import pandas as pd
 lista_meses = ['janeiro', 'fevereiro', 'março', 'abril', 'maio', 'junho']
 
 for mes in lista_meses:
-
-tabela_vendas_janeiro = pd.read_excel('janeiro.xlsx')
+    print(mes)
+    tabela_vendas = pd.read_excel(f'{mes}.xlsx')
 
 print(tabela_vendas)
 # Para cada um arquivo:
